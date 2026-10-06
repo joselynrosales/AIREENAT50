@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AIREEN @ 50 — Golden Birthday Celebration. 4:00 P.M. at Baloc ES Gymnasium. Offline golden invitation website.">
+<title>AIREEN @ 50 — Golden Birthday Celebration</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to celebration content</a>
+<div class="bg-wash" aria-hidden="true"></div>
+<canvas id="bokeh" aria-hidden="true"></canvas>
+<canvas id="particles" aria-hidden="true"></canvas>
+
+<nav class="nav" aria-label="Celebration navigation">
+  <a class="brand" href="#home">AIREEN @ 50<small>GOLDEN CELEBRATION</small></a>
+  <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">☰</button>
+  <ul id="navLinks" class="nav-links">
+    <li><a href="#home">HOME</a></li>
+    <li><a href="#invitation">INVITATION</a></li>
+    <li><a href="#memories">MEMORIES</a></li>
+    <li><a href="#photoshoot">PHOTOSHOOT</a></li>
+    <li><a href="#dresscode">DRESS CODE</a></li>
+    <li><a href="#event">EVENT</a></li>
+    <li><a href="#guests">GUESTS</a></li>
+  </ul>
+</nav>
+
+<header class="hero" id="home">
+  <p class="eyebrow">✦ GOLDEN BIRTHDAY CELEBRATION ✦</p>
+  <h1>AIREEN</h1>
+  <p class="at50">@ 50</p>
+  <div class="gold50" role="img" aria-label="Golden number 50 with crown, centerpiece of the celebration">
+    <div class="ring"></div>
+    <div class="inner"><span class="num">50</span></div>
+    <span class="crown" aria-hidden="true">👑</span>
+  </div>
+  <h2 class="shimmer">Golden Birthday Celebration</h2>
+  <div class="hero-meta">
+    <span class="pill">🕓 4:00 P.M.</span>
+    <span class="pill">📍 BALOC ES GYMNASIUM</span>
+    <span class="pill">📅 November 19, 2026</span>
+  </div>
+  <button class="btn" id="enterBtn" type="button">ENTER THE CELEBRATION ✨</button>
+  <p class="scroll-hint">SCROLL TO CELEBRATE ✦</p>
+</header>
+
+<main id="main">
+  <!-- INVITATION -->
+  <section class="block" id="invitation" aria-labelledby="inv-title">
+    <div class="card reveal">
+      <h2 class="sec-title" id="inv-title">You're Invited</h2>
+      <p class="sec-sub">Fifty years of grace, kindness and inspiration</p>
+      <div class="divider">✦ ✦ ✦</div>
+      <div class="inv-grid">
+        <div class="inv-frame">
+          <img src="assets/images/invitation-aireen-at-50.png" alt="Official golden invitation poster for Aireen at 50, Cheers to 50 Years, November 19 2026 at Baloc Elementary School Covered Court" loading="lazy">
+        </div>
+        <div class="inv-text">
+          <h3>💛 A GOLDEN MILESTONE 💛</h3>
+          <p><em>"Celebrating a beautiful journey of life, love and memories."</em></p>
+          <p>Come celebrate this golden milestone with <strong>Aireen</strong> — 50 wonderful years of love, laughter, and beautiful moments.</p>
+          <ul class="inv-list">
+            <li>👑 <strong>Celebrant:</strong> AIREEN — @ 50</li>
+            <li>🕓 <strong>Time:</strong> 4:00 P.M.</li>
+            <li>📍 <strong>Venue:</strong> BALOC ES GYMNASIUM / Baloc Elementary School Covered Court</li>
+            <li>📅 <strong>Date:</strong> November 19, 2026</li>
+            <li>💛 <strong>Motif:</strong> Golden Yellow / Golden 50</li>
+          </ul>
+          <p style="font-size:.9rem;color:#6b4d14">Original artwork preserved from: <code>PHOTOSHOOT / Aireen at 50_ Golden Milestone.png</code></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEMORIES -->
+  <section class="block" id="memories" aria-labelledby="mem-title">
+    <div class="card reveal">
+      <h2 class="sec-title" id="mem-title">The Golden Memories</h2>
+      <p class="sec-sub">Every smile, every journey — treasured forever</p>
+      <div class="divider">✦ ✦ ✦</div>
+      <div class="gallery" role="listbox" aria-label="Golden memories photo gallery. Press Enter on a photo to open lightbox.">
+        <figure class="g-item" tabindex="0" role="option" aria-selected="false" style="margin:0">
+          <img src="assets/images/invitation-aireen-at-50.png" alt="Aireen's official 50th birthday golden invitation portrait — Cheers to 50 Years" loading="lazy">
+          <figcaption class="g-cap">👑 The Golden Celebrant — Aireen @ 50</figcaption>
+        </figure>
+        <figure class="g-item" tabindex="0" role="option" aria-selected="false" style="margin:0">
+          <img src="assets/images/photoshoot-baguio-collage.png" alt="Aireen travel memories collage in Baguio City — Burnham Park, Mine's View, Botanical Garden" loading="lazy">
+          <figcaption class="g-cap">🌲 Baguio City Travel Memories</figcaption>
+        </figure>
+        <figure class="g-item" tabindex="0" role="option" aria-selected="false" style="margin:0">
+          <img src="assets/images/photoshoot-tagaytay-collage.png" alt="Aireen garden portrait collage in Tagaytay City overlooking Taal Lake" loading="lazy">
+          <figcaption class="g-cap">🌸 Tagaytay Garden Portraits</figcaption>
+        </figure>
+      </div>
+      <p style="text-align:center;color:#6b4d14;font-size:.92rem">Tap any photo to view ✨ Use ← → keys, Previous / Next buttons, or Esc to close.</p>
+    </div>
+  </section>
+
+  <!-- PHOTOSHOOT -->
+  <section class="block" id="photoshoot" aria-labelledby="ph-title">
+    <div class="card reveal">
+      <h2 class="sec-title" id="ph-title">Aireen's Golden Photoshoot</h2>
+      <p class="sec-sub">A cinematic walk through golden moments</p>
+      <div class="divider">✦ ✦ ✦</div>
+      <div class="stage" id="stage" aria-roledescription="slideshow" aria-label="Golden photoshoot slideshow">
+        <div class="slide active" data-cap="👑 Fifty years of grace, kindness and inspiration — Aireen @ 50">
+          <img src="assets/images/invitation-aireen-at-50.png" alt="Golden milestone portrait of Aireen at 50 with gold and black floral design">
+          <div class="slide-cap"><strong>Fifty Years of Grace</strong><span>Kindness • Inspiration • Love</span></div>
+        </div>
+        <div class="slide" data-cap="🌲 Baguio memories — joy in every mountain view">
+          <img src="assets/images/photoshoot-baguio-collage.png" alt="Aireen smiling in Baguio City parks and viewpoints" loading="lazy">
+          <div class="slide-cap"><strong>Baguio City Memories</strong><span>Burnham Park • Mine's View • Botanical Garden</span></div>
+        </div>
+        <div class="slide" data-cap="🌸 Tagaytay glow — elegant, timeless, golden">
+          <img src="assets/images/photoshoot-tagaytay-collage.png" alt="Aireen elegant portraits in Tagaytay with Taal Lake background" loading="lazy">
+          <div class="slide-cap"><strong>Tagaytay Garden Glow</strong><span>Overlooking the beautiful Taal Lake</span></div>
+        </div>
+        <div class="stage-btns">
+          <button class="chip" id="stPrev" aria-label="Previous slide">‹ Prev</button>
+          <button class="chip" id="stPlay" aria-pressed="true" aria-label="Pause or play slideshow">⏸ Pause</button>
+          <button class="chip" id="stNext" aria-label="Next slide">Next ›</button>
+        </div>
+      </div>
+      <p id="stageCap" class="sec-sub" style="margin-top:.6rem" aria-live="polite"></p>
+      <div class="dotbar" id="dots" role="tablist" aria-label="Slideshow dots"></div>
+      <p style="text-align:center;font-size:.88rem;color:#6b4d14">No video files were found in the project folder, so this cinematic Ken Burns slideshow was created from your local photos. To add a video later, place an .mp4 in <code>assets/videos/</code> — it will play fully offline.</p>
+    </div>
+  </section>
+
+  <!-- MUSIC -->
+  <section class="block" id="music" aria-labelledby="mus-title">
+    <div class="card reveal" style="text-align:center">
+      <h2 class="sec-title" id="mus-title">🎵 Golden Melody</h2>
+      <p class="sec-sub">Playing: "Just the Way You Are — Bruno Mars"</p>
+      <div class="divider">✦ ✦ ✦</div>
+      <p>Dedicated to Aireen — <em>beautiful, just the way you are, at 50 and always.</em></p>
+      <p id="musicNote" style="font-size:.92rem;color:#6b4d14">Music starts after you tap <strong>ENTER THE CELEBRATION ✨</strong> (browsers block autoplay until you interact).<br>
+      Expected offline file: <code>assets/audio/just-the-way-you-are.mp3</code> — no local audio was found in the folder, so place the file there (do not download from the internet on this page). The player below will use it automatically once added.</p>
+      <div style="display:flex;gap:.6rem;justify-content:center;flex-wrap:wrap;margin-top:.6rem">
+        <button class="chip" id="mPlay2" type="button" onclick="document.getElementById('mPlay').click()">▶ Play / ⏸ Pause (main player)</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- DRESS CODE -->
+  <section class="block" id="dresscode" aria-labelledby="dress-title">
+    <div class="card reveal">
+      <h2 class="sec-title" id="dress-title">What To Wear</h2>
+      <p class="sec-sub">Come dressed in colors that shine with the Golden Celebration.</p>
+      <div class="divider">✦ ✦ ✦</div>
+      <div class="dress">
+        <div class="dress-card"><div class="swatch yellow"></div><div class="pad"><div class="sil">💛</div><h3>YELLOW</h3><p>Bright, cheerful, and golden — perfect for celebrating 50 wonderful years.</p><p><em>Outfit idea:</em> Golden midi dress or barong with yellow accent.</p></div></div>
+        <div class="dress-card"><div class="swatch black"></div><div class="pad"><div class="sil">🖤</div><h3>BLACK</h3><p>Classic, elegant, and timeless.</p><p><em>Outfit idea:</em> Sleek black dress or suit with gold accessories.</p></div></div>
+        <div class="dress-card"><div class="swatch brown"></div><div class="pad"><div class="sil">🤎</div><h3>BROWN</h3><p>Warm, sophisticated, and beautifully complementary to gold.</p><p><em>Outfit idea:</em> Chocolate blazer or mocha Filipiniana.</p></div></div>
+        <div class="dress-card"><div class="swatch beige"></div><div class="pad"><div class="sil">🤍</div><h3>BEIGE</h3><p>Soft, classy, and effortlessly elegant.</p><p><em>Outfit idea:</em> Cream ensemble like Aireen's Tagaytay &amp; Baguio looks.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENT -->
+  <section class="block" id="event" aria-labelledby="ev-title">
+    <div class="reveal">
+      <div class="event-hero">
+        <p style="letter-spacing:.4em;font-size:.8rem">✦ YOU ARE CORDIALLY INVITED ✦</p>
+        <h2 class="big" id="ev-title">AIREEN @ 50<br>Golden Birthday Celebration</h2>
+        <p><em>Here's to 50 golden years of love, laughter, and memories.</em></p>
+        <div class="event-grid">
+          <div><div style="font-size:1.8rem">🕓</div><strong>4:00 P.M.</strong><br>November 19, 2026</div>
+          <div><div style="font-size:1.8rem">📍</div><strong>BALOC ES GYMNASIUM</strong><br>Baloc Elementary School Covered Court</div>
+          <div><div style="font-size:1.8rem">💛</div><strong>GOLDEN MOTIF</strong><br>Yellow • Black • Brown • Beige</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GUESTS -->
+  <section class="block" id="guests" aria-labelledby="gu-title">
+    <div class="card reveal">
+      <h2 class="sec-title" id="gu-title">Our Special Guests</h2>
+      <p class="sec-sub">Fifty golden hearts — from "My 50th Bday Guest.docx" (original file preserved)</p>
+      <div class="divider">✦ ✦ ✦</div>
+      <div class="searchbar">
+        <input type="search" id="guestSearch" placeholder="🔍 Search guest name…" aria-label="Search guest name">
+        <select id="guestFilter" aria-label="Filter by guest group">
+          <option value="all">All Groups (50)</option>
+          <option value="wines">5 Reddish Wines</option>
+          <option value="cakes">5 Blowing Cakes</option>
+          <option value="slippers">5 Stylish Slippers (Size 8)</option>
+          <option value="gifts">5 Mighty Gifts</option>
+          <option value="bills">5 Blue Dynamite Bills</option>
+          <option value="chocolates">5 Sweety Chocolates</option>
+          <option value="candles">5 Whity Candles</option>
+          <option value="shirts">5 Lighty Shirts (2XL)</option>
+          <option value="shorts">5 Sporty Shorts</option>
+          <option value="bracelets">5 Blinky Bracelets</option>
+        </select>
+      </div>
+      <p class="count" id="guestCount" aria-live="polite">50 of 50 special guests shown</p>
+      <div class="guest-groups">
+        <div class="g-group" data-cat="wines"><h3>🍷 5 Reddish Wines</h3><ul><li>MA. BELINDA D. NEUDA</li><li>PRECIOUS VELLE D. NEUDA</li><li>MARY STEPHANIE V. BALDONAZA</li><li>MA. CRISTINA P. BERNALDEZ</li><li>VICTORIA DG. URGENTE</li></ul></div>
+        <div class="g-group" data-cat="cakes"><h3>🎂 5 Blowing Cakes</h3><ul><li>JOYCE L. MONSAYAC</li><li>JOY V. REALISTA</li><li>MICAH P. MARTIN</li><li>MARJORIE T. DELA CRUZ</li><li>MARVIE ANN T. CUSTODIO</li></ul></div>
+        <div class="g-group" data-cat="slippers"><h3>👡 5 Stylish Slippers (Size 8)</h3><ul><li>MARILOU E. GARCIA</li><li>IVY C. SANTIAGO</li><li>MELANIE A. REYES</li><li>REGINA A. SALONGA</li><li>JENNY M. CRUZ</li></ul></div>
+        <div class="g-group" data-cat="gifts"><h3>🎁 5 Mighty Gifts</h3><ul><li>LOURDES T. ESTEBAN</li><li>SHEILA R. GUILLERMO</li><li>ILLYN N. CASTRO</li><li>MA. ISABELLE L. BOTE</li><li>ALLAN DC. BERMUDEZ</li></ul></div>
+        <div class="g-group" data-cat="bills"><h3>💙 5 Blue Dynamite Bills</h3><ul><li>VIOLETA P. ALBINDO</li><li>IMELDA G. NIMES</li><li>ANNA LIZA V. VILORIA</li><li>IRENE E. INZA CRUZ</li><li>EVIGAN A. MANZANO</li></ul></div>
+        <div class="g-group" data-cat="chocolates"><h3>🍫 5 Sweety Chocolates</h3><ul><li>APRIL JOY S. GARCIA</li><li>LAYSA CLARA L. GISALA</li><li>SYRENE E. NALUZ</li><li>MAUREEN T. CABANAYAN</li><li>SHINE G. SALAZAR</li></ul></div>
+        <div class="g-group" data-cat="candles"><h3>🕯️ 5 Whity Candles</h3><ul><li>WINNIE A. POLONG</li><li>AILEEN T. PAJARILLO</li><li>LIEZEL B. MAULINO</li><li>KATRINA YVETTE M. ZAMORA</li><li>JOSELYN T. ROSALES</li></ul></div>
+        <div class="g-group" data-cat="shirts"><h3>👕 5 Lighty Shirts (2XL)</h3><ul><li>RAZELLE JANE R. DULAY</li><li>JENINA D. CASTILLO</li><li>ROUSELLE R. AQUINO</li><li>CATHERINE C. DUBAL</li><li>DEMALYN T. DE VERA</li></ul></div>
+        <div class="g-group" data-cat="shorts"><h3>🩳 5 Sporty Shorts</h3><ul><li>ROSSAN GAY A. DOMINGO</li><li>JENELYN G. DE GUZMAN</li><li>MARY GRACE C. GARCIA</li><li>MINERVA C. ABAN</li><li>VICKY L. DE LEON</li></ul></div>
+        <div class="g-group" data-cat="bracelets"><h3>✨ 5 Blinky Bracelets</h3><ul><li>RAQUEL B. GOMEZ</li><li>ELMA A. CRUZ</li><li>NERISSA V. VILLENA</li><li>AILEEN A. GARCIA</li><li>GIANELA ASHLEY R. CASTILLO</li></ul></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<section class="closing" aria-label="Closing message">
+  <h2>Thank you for being part of AIREEN's<br>Golden 50th Birthday Celebration.</h2>
+  <p><em>Here's to 50 golden years of love, laughter, memories, and beautiful moments.</em></p>
+  <p style="font-size:2rem;letter-spacing:.2em" class="shimmer">AIREEN @ 50 ✨</p>
+  <p aria-hidden="true">✦ ｡ ✧ ˚ ｡ ✦ ｡ ✧ ˚ ｡ ✦</p>
+</section>
+
+<footer>💛 AIREEN @ 50 — Golden Birthday Celebration • 4:00 P.M. • Baloc ES Gymnasium • <span id="year"></span> • Fully offline — no internet needed</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <img id="lbImg" src="assets/images/invitation-aireen-at-50.png" alt="Enlarged golden memory photo">
+  <p class="lb-cap" id="lbCap"></p>
+  <div class="lb-row">
+    <button class="lb-btn" id="lbPrev" aria-label="Previous photo">‹ Prev</button>
+    <button class="lb-btn" id="lbClose" aria-label="Close photo viewer">✕ Close</button>
+    <button class="lb-btn" id="lbNext" aria-label="Next photo">Next ›</button>
+  </div>
+</div>
+
+<!-- Fixed music player -->
+<div class="player" role="region" aria-label="Background music player">
+  <div class="disc" aria-hidden="true"><span>♪</span></div>
+  <div>
+    <div style="font-size:.82rem"><strong>🎵 Playing: "Just the Way You Are — Bruno Mars"</strong></div>
+    <div class="note" id="mStatus">Tap ENTER THE CELEBRATION ✨ to start music.</div>
+  </div>
+  <button id="mPlay" aria-label="Play or pause music">▶ Play</button>
+  <button id="mMute" aria-label="Mute or unmute">🔊 Mute</button>
+  <input type="range" id="mVol" min="0" max="1" step="0.05" value="0.7" aria-label="Volume">
+  <button id="mToggle" aria-pressed="false" aria-label="Toggle music on or off">Music: OFF</button>
+  <audio id="bgMusic" preload="none" loop>
+    <source src="assets/audio/just-the-way-you-are.mp3" type="audio/mpeg">
+    Your browser does not support audio. Add assets/audio/just-the-way-you-are.mp3 to enable music.
+  </audio>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
